@@ -81,7 +81,7 @@ This project provides a web-based interface for users to create, manage, and int
 5. **Run the application:**
 
    ```bash
-   python app_dbaas.py
+   nohup python app_dbaas.py > /tmp/running_dbaas.log &
    ```
 
    Ensure that your Flask app is configured to run on `0.0.0.0` to be accessible externally.
