@@ -6,7 +6,7 @@ This project provides a web-based interface for users to create, manage, and int
 ## Features
 
 * User-friendly web interface for database operations
-* Support for creating and deleting databases
+* Support for creating instance, database and user
 * Execution of SQL queries through the web interface
 * Deployed on Amazon EC2 for scalability and reliability
 
@@ -40,13 +40,7 @@ This project provides a web-based interface for users to create, manage, and int
    source venv/bin/activate
    ```
 
-3. **Install the required packages:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application:**
+3. **Run the application:**
 
    ```bash
    python app_dbaas.py
@@ -82,7 +76,6 @@ This project provides a web-based interface for users to create, manage, and int
    cd DBaaS-Project
    python3 -m venv venv
    source venv/bin/activate
-   pip install -r requirements.txt
    ```
 
 5. **Run the application:**
